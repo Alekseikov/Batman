@@ -253,7 +253,7 @@ line-height: 16px;
 
 @media (max-width: 1200px) {
   .container {
-    min-width: 960px;
+    max-width: 960px;
   }
   .tabs-item {
     font-size: 16px;
@@ -261,7 +261,7 @@ line-height: 16px;
 }
 @media (max-width: 992px) {
   .container {
-    min-width: 740px;
+    max-width: 740px;
   }
   .tabs {
     flex-wrap: wrap;
@@ -285,7 +285,7 @@ line-height: 16px;
 }
 @media (max-width: 768px) {
   .container {
-    min-width: 540px;
+    max-width: 540px;
   }
   .more {
     display: none;
