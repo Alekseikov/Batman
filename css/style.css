@@ -251,84 +251,88 @@ line-height: 16px;
   padding: 12px;
 }
 
-@media (max-width: 1200px) {
-  .container {
+@media (max-width: 1200px){
+  .container{
     max-width: 960px;
   }
-  .tabs-item {
+  .tabs-item{
     font-size: 16px;
   }
 }
-@media (max-width: 992px) {
-  .container {
-    max-width: 740px;
-  }
-  .tabs {
-    flex-wrap: wrap;
-  }
-  .tabs-item {
-    flex-basis: 20%;
-    line-height: 2;
-  }
-  .full-content {
-    flex-wrap: wrap;
-  }
-  .tabs-content {
-    margin-bottom: 5%;
-  }
-  .text {
-    font-size: 14px;
-  }
-  .actors-list {
-    font-size: 14px;
-  }
+@media (max-width: 992px){
+.container{
+  max-width: 740px;
 }
-@media (max-width: 768px) {
-  .container {
-    max-width: 540px;
-  }
-  .more {
-    display: none;
-  }
-    .tabs-item {
-    flex-basis: 33%;
-  }
-  .tabs-content {
-    margin-right: 0;
-  }
+.tabs{
+ flex-wrap: wrap;
 }
-@media (max-width: 578px) {
-  .container {
-    width: 90%;
+.tabs-item{
+  flex-basis: 20%;
+  line-height: 2;
+}
+.full-content{
+  flex-wrap: wrap;
+}
+.tabs-content{
+  margin-bottom: 5%;
+}
+.text{
+  font-style: 14px;
+}
+.actors-list{
+  font-style: 14px;
+}
+}
+@media (max-width: 768px){
+.container{
+  max-width: 540px;
+}
+.more{
+  display: none;
+  /*убираем кнопку "Подробнее"*/
+}
+.tabs-item{
+  flex-basis: 33%;
+}
+.tabs-content{
+  margin-right: 0;
+}
+}
+@media (max-width: 578px){
+  .container{
+    max-width: 90%;
   }
-  .header {
+  .header{
     flex-wrap: wrap;
   }
-  .search {
+  .search{
     flex-basis: 100%;
     order: 3;
     margin-top: 5%;
   }
-  .content {
+  .content{
     flex-wrap: wrap;
   }
-  .button {
-    width: 100%;
+  .short-info{
+    margin-bottom: 5%;
   }
-  .actors-list, .actors-title {
+  .actors-list, .actors-title{
     display: none;
   }
-  .movie-info {
+  .movie-info{
     flex-wrap: wrap;
   }
-  .play {
+  .play{
     flex-basis: 100%;
     margin-top: 10%;
   }
-  .short-info {
+  .short-info{
     margin-right: 0;
   }
-  .poster {
+  .button{
+    width: 100%;
+  }
+  .poster{
     margin-top: -20%;
     display: inline-block;
     width: 100%;
